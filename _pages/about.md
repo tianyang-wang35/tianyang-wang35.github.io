@@ -166,6 +166,16 @@ I have been actively searching for the right mentor and project as I am very eag
     </div>
 </div>
 
+<div class="card">
+    <div style="flex: 0 0 180px; margin-right: 20px;">
+      <img src="images/2025_2.png" alt="2025_2">
+    </div>
+    <div style="flex: 1;">
+      <h3>S<sup>2</sup>RL: Structure and Semantic Aware Representation Learning for Domain Generalized Medical Image Segmentation</h3>
+      <p>Yuheng Xu, <span class="author-bold">Tianyang Wang</span>, Taiping Zhang</p>
+    </div>
+</div>
+
 
 <div class="card">
     <div style="flex: 0 0 180px; margin-right: 20px;">
