@@ -19,89 +19,103 @@ I am very eager to continue my studies in this field. I would be truly grateful 
 
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;500&display=swap');
 
-  body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f9f9f9; /* Light grey background for the whole page */
-  }
-
-  h1, h2, h3 {
-    font-family: 'Open Sans', sans-serif;
-  }
-
-  .under-preparing {
-    color: #007bff; /* Bootstrap primary blue for consistency or any other shade of blue you prefer */
-    font-weight: bold;
-  }
-
-  .card {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 15px;
-    background-color: #fff; /* White background for cards */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: box-shadow 0.3s, transform 0.3s ease;
-    border-radius: 8px; /* Rounded corners for cards */
-  }
-
-  .card:hover {
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-    transform: translateY(-5px);
-  }
-
-  .card img {
-    width: 180px;
-    height: auto;
-    border-radius: 8px;
-  }
-
-  .card h3 {
-    margin: 0 0 5px;
-    color: #333;
-    font-weight: bold;
-  }
-
-  .card p {
-    margin: 0;
-    font-size: 0.9rem;
-    color: #666;
-  }
-
-  .card a {
-    color: #1a73e8;
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  .card a:hover {
-    text-decoration: underline;
-  }
-  .status-accepted {
-    color: green;
-    font-weight: bold;
+/* 全局字体与背景色 */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9; /* 浅灰色背景 */
 }
 
+/* 标题使用 Open Sans */
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
 
-  .highlight {
-    color: red;
-    font-weight: bold;
-  }
+/* 示例：给某些尚在准备中的内容加蓝色提示 */
+.under-preparing {
+  color: #007bff;
+  font-weight: bold;
+}
 
-  .author-bold {
-    font-weight: bold;
-  }
+/* 卡片容器：使用 flex 布局、顶部对齐 */
+.card {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  background-color: #fff; /* 卡片背景 */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s, transform 0.3s ease;
+  border-radius: 8px;
+}
 
-  /* Adjust only the spacing between the two specific headers */
-  #recent-publications {
-    margin-bottom: 5px; /* Reducing the bottom margin of 'Recent and Selected Publications' */
-  }
+/* 卡片 hover 效果 */
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transform: translateY(-5px);
+}
 
-  #conference-papers {
-    margin-top: 5px; /* Reducing the top margin of '🎓 Conference Papers' */
-  }
+/* 卡片中直接放置的图片：固定宽度、高度自适应，并设置右侧间距 */
+.card > img {
+  width: 180px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+/* 如果需要给文本区再包一层，可给其设置 flex: 1; */
+.card-content {
+  flex: 1;
+}
+
+/* 卡片内标题、段落、链接的样式 */
+.card h3 {
+  margin: 0 0 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.card a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* 特殊状态或高亮示例 */
+.status-accepted {
+  color: green;
+  font-weight: bold;
+}
+
+.highlight {
+  color: red;
+  font-weight: bold;
+}
+
+.author-bold {
+  font-weight: bold;
+}
+
+/* 调整特定 ID 的上下间距（如果有需要的话） */
+#recent-publications {
+  margin-bottom: 5px; /* 减少底部间距 */
+}
+
+#conference-papers {
+  margin-top: 5px; /* 减少顶部间距 */
+}
 </style>
 
 <h2 id="recent-publications">Recent and Selected Publications</h2>
@@ -113,16 +127,17 @@ I am very eager to continue my studies in this field. I would be truly grateful 
  
 
 <div class="card">
-    <div style="flex: 0 0 180px; margin-right: 20px;">
-      <img src="images/DDPM.jpg" alt="DDPM">
-    </div>
-    <div style="flex: 1;">
+    <!-- 直接放置图片，并用全局CSS控制宽高、圆角等 -->
+    <img src="images/DDPM.jpg" alt="DDPM">
+    <!-- 用一个 .card-content（或者你喜欢的类名）包右侧文本 -->
+    <div class="card-content">
       <h3>Enhanced Corneal Endothelial Cell Segmentation via Frequency-Selected Residual Fourier Diffusion Models</h3>
       <p><span class="author-bold">Tianyang Wang*</span>, Xiaofei Nan*, Yunze Wang, Yuhang Yan, Zhenkai Gao, Jingxin Liu.</p>
       <p>International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2025 - <span style="color: green; font-weight: bold;">Accepted</span></p>
       <p><span class="author-bold">*</span> equal contribution</p>
     </div>
 </div>
+
 
 
  
