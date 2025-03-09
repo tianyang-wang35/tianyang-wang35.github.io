@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Tianyang Wang's Academic Page"
+title                    : "Academic Page"
 title_separator          : "-"
 name                     : &name "Tianyang Wang"
 description              : &description "specializing in computer vision with a focus on medical imaging"
