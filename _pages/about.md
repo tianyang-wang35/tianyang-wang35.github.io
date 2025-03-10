@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello there! I am an undergraduate student specializing in computer vision at the [School of AI and Advanced Computing](https://www.xjtlu.edu.cn/en/study/departments/school-of-ai-and-advanced-computing), [Xi'an Jiaotong-Liverpool University](https://www.xjtlu.edu.cn/en/). My research interest includes medical image analysis and computer vision. I am currently advised by [Prof. Jingxin Liu](https://scholar.google.com/citations?user=C0X90VsAAAAJ&hl=en) .
-
-I am very eager to continue my studies in this field. I would be truly grateful for the opportunity to collaborate with like-minded individuals. If you are interested, please feel free to drop me a message.😊 [Email](mailto:Tianyang.Wang21@student.xjtlu.edu.cn)
+Hello there! I am an undergraduate student specializing in computer vision at the [School of AI and Advanced Computing](https://www.xjtlu.edu.cn/en/study/departments/school-of-ai-and-advanced-computing), [Xi'an Jiaotong-Liverpool University](https://www.xjtlu.edu.cn/en/). My research interest includes medical image analysis and computer vision. I am currently advised by [Prof. Jingxin Liu](https://scholar.google.com/citations?user=C0X90VsAAAAJ&hl=en) . I am very eager to continue my studies in this field. I would be truly grateful for the opportunity to collaborate with like-minded individuals. If you are interested, please feel free to drop me a message.😊 [Email](mailto:Tianyang.Wang21@student.xjtlu.edu.cn)
 
 
 
