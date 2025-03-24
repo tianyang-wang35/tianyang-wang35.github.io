@@ -17,7 +17,7 @@ Work experience
 ======
 
 * **Summer 2023 – Present**: Research Assistant  
-  * **Biomedical AI Lab, Xi’an Jiaotong-Liverpool University**  
+  * **Biomedical AI Lab** , Xi’an Jiaotong-Liverpool University  
   * **Duties included**: Medical image analysis  
   * **Supervisors**: Professor Jingxin Liu & Professor Xianxu Hou
 
