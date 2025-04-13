@@ -142,7 +142,7 @@ Hello there! I am an undergraduate student specializing in computer vision at th
 
 
 
-
+<!--
 <div class="card">
     <div style="flex: 0 0 180px; margin-right: 20px;">
       <img src="images/Wave-MAE.png" alt="Wave-MAE">
@@ -154,6 +154,8 @@ Hello there! I am an undergraduate student specializing in computer vision at th
       <p><span class="author-bold">*</span> equal contribution</p>
     </div>
 </div>
+-->
+
 
 <div class="card">
     <div style="flex: 0 0 180px; margin-right: 20px;">
