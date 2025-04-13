@@ -202,6 +202,7 @@ Hello there! I am an undergraduate student specializing in computer vision at th
 </div>
 
 
+<!-- 
 <h3 id="journal-papers">📑 Journal Papers</h3>
 
 <div class="card">
@@ -214,6 +215,8 @@ Hello there! I am an undergraduate student specializing in computer vision at th
         <p><em>WIREs Data Mining and Knowledge Discovery, 2024</em> <a href="https://arxiv.org/pdf/2404.13885" target="_blank">[PDF]</a> <span style="font-weight: bold; color: green;">- Accepted (Camera-Ready)</span></p>
     </div>
 </div>
+-->
+
 
 
 <!--
