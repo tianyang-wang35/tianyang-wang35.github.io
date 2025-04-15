@@ -156,7 +156,7 @@ Hello there! I am an undergraduate student specializing in computer vision at th
 </div>
 -->
 
-
+<!--
 <div class="card">
     <div style="flex: 0 0 180px; margin-right: 20px;">
       <img src="images/2025_2.png" alt="2025_2">
@@ -167,8 +167,10 @@ Hello there! I am an undergraduate student specializing in computer vision at th
       <p>International Joint Conference on Neural Networks (IJCNN), 2025 - <span style="color: green; font-weight: bold;">Accepted</span></p>
     </div>
 </div>
+-->
 
 
+<!--
 <div class="card">
     <div style="flex: 0 0 180px; margin-right: 20px;">
       <img src="images/2025_1.png" alt="2025_1">
@@ -178,7 +180,7 @@ Hello there! I am an undergraduate student specializing in computer vision at th
       <p>Yuheng Xu, <span class="author-bold">Tianyang Wang</span>, Taiping Zhang</p>
     </div>
 </div>
-
+-->
  
 
 <div class="card">
